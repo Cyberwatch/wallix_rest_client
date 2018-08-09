@@ -2,7 +2,6 @@ require 'wallix_rest_client/version'
 require 'net/http'
 require 'net/https'
 require 'uri'
-require 'deep_symbolize'
 require 'json'
 
 # Gem to use the Wallix Admin Bastion REST API
