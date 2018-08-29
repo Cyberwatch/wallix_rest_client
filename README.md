@@ -2,6 +2,10 @@
 
 This gem provides a wrapper for the Wallix Admin Bastion REST API.
 
+[![Build Status](https://travis-ci.org/Cyberwatch/wallix_rest_client.svg?branch=master)](https://travis-ci.org/Cyberwatch/wallix_rest_client)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d277733be82a63c9731e/maintainability)](https://codeclimate.com/github/Cyberwatch/wallix_rest_client/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d277733be82a63c9731e/test_coverage)](https://codeclimate.com/github/Cyberwatch/wallix_rest_client/test_coverage)
+
 ## Installation
 
 Add this line to your application's Gemfile:
