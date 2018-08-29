@@ -17,10 +17,10 @@ module WallixRestClient
 
   # Handle the Wallix REST API Settings
   class Configuration
-    attr_accessor :base_uri, :mode, :user, :secret, :options, :headers
+    attr_accessor :base_uri, :user, :secret, :options
 
     def initialize
-      @host = ''
+      @base_uri = ''
       @user = ''
       @secret = ''
       @options = {
