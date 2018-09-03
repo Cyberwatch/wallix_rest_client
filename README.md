@@ -41,7 +41,7 @@ The library needs to be configured using your account's password or API key, dep
 require 'wallix_rest_client'
 
 WallixRestClient.setup do |config|
-  config.base_uri = 'https://192.168.1.125'
+  config.base_uri = 'https://wallixbastion.localdomain'
   config.user = 'username'
   config.secret = 'mypassword'
   config.options = { auth: :basic, verify_ssl: false }
@@ -54,7 +54,7 @@ end
 require 'wallix_rest_client'
 
 WallixRestClient.setup do |config|
-  config.base_uri = 'https://192.168.1.125'
+  config.base_uri = 'https://wallixbastion.localdomain'
   config.user = 'username'
   config.secret = 'myapisecretkey'
   config.options = { auth: :api_key, verify_ssl: false }
