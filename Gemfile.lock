@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wallix_rest_client (0.4.0)
+    wallix_rest_client (0.4.1)
       json
 
 GEM
@@ -48,4 +48,4 @@ DEPENDENCIES
   wallix_rest_client!
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
