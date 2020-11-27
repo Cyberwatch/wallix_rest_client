@@ -1,40 +1,41 @@
 PATH
   remote: .
   specs:
-    wallix_rest_client (0.4.0)
+    wallix_rest_client (0.6.0)
       json
 
 GEM
   remote: https://rubygems.org/
   specs:
     ansi (1.5.0)
-    diff-lcs (1.3)
-    docile (1.3.1)
-    hirb (0.7.3)
-    json (2.1.0)
-    rake (12.3.1)
-    rspec (3.7.0)
-      rspec-core (~> 3.7.0)
-      rspec-expectations (~> 3.7.0)
-      rspec-mocks (~> 3.7.0)
-    rspec-core (3.7.1)
-      rspec-support (~> 3.7.0)
-    rspec-expectations (3.7.0)
+    diff-lcs (1.4.4)
+    docile (1.3.2)
+    json (2.3.1)
+    rake (13.0.1)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.7.0)
-    rspec-mocks (3.7.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.7.0)
-    rspec-support (3.7.1)
-    simplecov (0.16.1)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
+    simplecov (0.19.1)
       docile (~> 1.1)
-      json (>= 1.8, < 3)
-      simplecov-html (~> 0.10.0)
-    simplecov-console (0.4.2)
+      simplecov-html (~> 0.11)
+    simplecov-console (0.8.0)
       ansi
-      hirb
       simplecov
-    simplecov-html (0.10.2)
+      terminal-table
+    simplecov-html (0.12.3)
+    terminal-table (2.0.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
@@ -48,4 +49,4 @@ DEPENDENCIES
   wallix_rest_client!
 
 BUNDLED WITH
-   1.16.1
+   2.1.4
