@@ -76,7 +76,11 @@ module WallixRestClient
 
     # Run the HTTP request
     def run_request(path, resource, type, query_params = {}, post_params = {})
-      uri = URI::join(configuration.base_uri, '/api/', path, resource.to_s, build_query_params(query_params))
+      uri = URI::join(
+        configuration.base_uri, '/api/', path,
+        URI.encode_www_form_component(resource.to_s, enc=Encoding::UTF_8),
+        build_query_params(query_params)
+      )
 
       http = build_http(uri)
       request = build_request(type, uri)
